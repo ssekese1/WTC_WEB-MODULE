@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS chats (
+ `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ `message`  VARCHAR(255) NOT NULL,
+ `emails`  VARCHAR(255) NOT NULL,
+ `username` VARCHAR(8) NOT NULL,
+ `created` TIMESTAMP 
+)

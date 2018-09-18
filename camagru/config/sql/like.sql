@@ -1,0 +1,6 @@
+CREATE TABLE likes (
+ `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ `image`  VARCHAR(255) NOT NULL,
+ `username` VARCHAR(8) NOT NULL,
+ `created` TIMESTAMP 
+)

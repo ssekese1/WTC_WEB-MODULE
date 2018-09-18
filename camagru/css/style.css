@@ -1,0 +1,202 @@
+    body {
+        /* vertical-align: middle; */
+        font-family: Arial, Sans-Serif;
+        background-image: url('../img/waTER.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* height: 100vh; */
+        margin: 0;
+    }
+    
+    .container {
+        width: 600px;
+        height: 400px;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    #sup {
+        z-index: 999;
+        position: relative;
+        top: -300;
+    }
+    
+    #rev {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .header {
+        height: 20px;
+        position: relative;
+    }
+    
+    form.content {
+        width: 300%;
+        margin: 0px auto;
+        padding: 20px;
+        border: 1px solid #B0C4DE;
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .input-group {
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .input-group label {
+        display: block;
+        text-align: left;
+        margin: 3px;
+        color: white;
+    }
+    
+    .input-group input {
+        height: 30px;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        text-align: left;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background: #5F9EA0;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .page-header {
+        position: absolute;
+        left: 25%;
+        top: 25px;
+    }
+    
+    .error {
+        width: 92%;
+        margin: 0px auto;
+        padding: 10px;
+        border: 1px solid #a94442;
+        color: #a94442;
+        background: #f2dede;
+        border-radius: 5px;
+        text-align: left;
+    }
+    /* .success {
+        color: #3c763d;
+        background: #dff0d8;
+        border: 1px solid #3c763d;
+        margin-bottom: 20px;
+    } */
+    
+    .topnav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: hidden;
+        background-color: #333;
+        z-index: 999;
+        width: 100%;
+    }
+    
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        top: 0%;
+    }
+    
+    .pics {
+        height: 300px;
+        width: 400px;
+    }
+    
+    .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        width: 180px;
+    }
+    
+    #photo {
+        color: #fff;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 40px;
+        background-color: #333;
+        box-shadow: 0 8px 5px 0;
+    }
+    
+    .footer .copyright {
+        text-align: center;
+        padding-top: 3px;
+        font-size: 14;
+        color: white;
+        padding-right: 20px;
+        font-style: italic;
+        font-family: monospace;
+    }
+    
+    .booth {
+        /* position: relative; */
+        /* top: 150px; */
+        margin: 150px auto;
+        width: 400px;
+        Height: 300px;
+        background-color: #ccc;
+        border: 10px solid #ddd;
+    }
+    
+    .canvas {
+        top: 1000px;
+        margin: 0;
+    }
+    
+    .booth-capture-button {
+        display: block;
+        margin: 10px 0;
+        padding: 10px 20px;
+        background-color: cornflowerblue;
+        color: #fff;
+        text-align: center;
+        text-transform: none;
+    }
+    
+    .capture {
+        display: none;
+    }
+    
+    .pagination {
+        padding: 10px 20px;
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .result {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }

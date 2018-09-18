@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `profileimg` (
+ `id` INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+ `userid` INT(11) NOT NULL,
+ `status` VARCHAR(11) NOT NULL,
+  `username`  VARCHAR(8) NOT NULL
+)
